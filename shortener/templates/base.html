@@ -1,0 +1,14 @@
+{% load bootstrap3 %}
+
+<!DOCTYPE html>
+
+<title>{% block title %}{% endblock %}</title>
+
+{% bootstrap_css %}
+
+<div class="container">
+  <div class="jumbotron">
+  {% block content %}
+  {% endblock %}
+  </div>
+</div>

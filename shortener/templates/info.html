@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+
+{% block title %}Info for {{ object.short }}{% endblock %}
+
+{% block content %}
+<dl>
+  <dt>Long URL</dt>
+  <dd><a href="{{ object.original }}">{{ object.original }}</a></dd>
+  <dt>Submitter</dt>
+  <dd>{{ object.submitter.get_full_name }} ({{ object.submitter.username }})</dd>
+</dl>
+{% endblock %}
