@@ -20,6 +20,9 @@ INSTALLATION
 Tests
 -----
 
+[![codecov](https://codecov.io/gh/alazaro/shorty/branch/master/graph/badge.svg)](https://codecov.io/gh/alazaro/shorty)
+[![tests](https://circleci.com/gh/alazaro/shorty.png?circle-token=a301128701ba706a77b683852a5524dbe471267e)](https://circleci.com/gh/alazaro/shorty)
+
 Run `./manage.py test`
 
 
