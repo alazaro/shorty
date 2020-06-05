@@ -1,4 +1,4 @@
-Django==1.11.28
+Django==1.11.29
 django-bootstrap3==7.1.0
 python-dateutil==2.6.0
 requests==2.12.3
